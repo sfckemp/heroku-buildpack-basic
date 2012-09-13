@@ -24,7 +24,7 @@ echo "-----> Using Blassic version $VERSION"
     mkdir -p $CACHE_DIR/blassic-$VERSION
     cd $CACHE_DIR/blassic-$VERSION
         
-    echo "-----> Fetching Blassic binaries
+    echo "-----> Fetching Blassic binaries"
     curl -s -O -m 120 $DOWNLOAD_URL | indent
     tar zxf $FILE_NAME
     rm -f $FILE_NAME
