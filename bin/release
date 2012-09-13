@@ -8,5 +8,5 @@ addons:
 config_vars:
     PATH: local/bin:/usr/local/bin:/usr/bin:/bin
 default_process_types:
-    web: blassic app.bas
+    web: ./blassic app.bas
 EOF
